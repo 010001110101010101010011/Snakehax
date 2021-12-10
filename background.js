@@ -1,8 +1,1 @@
-function changebackground(){
-	document.getElementById('id').style.backgroundColor = 'green' ; 
-}
-// change background color for whole body..
-function changebackground(){
-	document.body.style.backgroundColor = 'green';
-}
- 
+$(document.head).append('<link rel="stylesheet" href="https://raw.githubusercontent.com/GUS200/Snakehax/main/canvas.css">');
