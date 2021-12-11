@@ -3,7 +3,7 @@ window.snake.scheme({
   background:    '#rrggbb', // hex code for background, defaults to score bar color if omitted
   walls:         '#rrggbb', // hex code for border and wall mode walls, defaults to default color
   shadows:       '#rrggbb', // hex code for snake and fruit shadows, defaults to default
-  lightSquares:  '#000000', // hex code for the light board squares, defaults to default
+  lightSquares:  '#0000', // hex code for the light board squares, defaults to default
   darkSquares:   '#595959', // hex code for the dark board squares, defaults to default
   lightGoal:     '#rrggbb', // hex code for the dark sections of the Sokoban goals; optional: OMISSION RECOMMENDED
   darkGoal:      '#rrggbb', // hex code for the light sections of the Sokoban goals; optional: OMISSION RECOMMENDED
