@@ -1,5 +1,5 @@
-browser.tabs.create({url: "https://tricksplit.io"}).then(() => {
-  browser.tabs.executeScript({
-    code: `console.log('location:', window.location.href);`
-  });
-});
+function myFunction() {
+  var x = document.createElement("IFRAME");
+  x.setAttribute("src", "https://www.w3schools.com");
+  document.body.appendChild(x);
+}
