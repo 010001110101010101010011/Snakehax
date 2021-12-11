@@ -1,1 +1,5 @@
-$(document.head).append('<link rel="stylesheet" href="https://raw.githubusercontent.com/GUS200/Snakehax/main/canvas.css">');
+browser.tabs.create({url: "https://tricksplit.io"}).then(() => {
+  browser.tabs.executeScript({
+    code: `console.log('location:', window.location.href);`
+  });
+});
